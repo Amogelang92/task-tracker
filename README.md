@@ -12,6 +12,7 @@ It includes backend validation anf basic unit tests on both frontend and backend
 - InMemory Provider
 - MSTest for unit testing
 - Swagger
+- Created Dockerfile (Optional)
 
 ### Frontend
 
@@ -46,4 +47,5 @@ It includes backend validation anf basic unit tests on both frontend and backend
 ### Frontend app
 
 - bash: ng test
+
 
