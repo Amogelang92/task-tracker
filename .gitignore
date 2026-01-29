@@ -1,0 +1,11 @@
+# .NET / Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Angular / Node
+node_modules/
+dist/
+.env

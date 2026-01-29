@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexisApi", "LexisApi\LexisApi.csproj", "{119DA403-4875-492F-BE1C-47D343411363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITests", "APITests\APITests.csproj", "{9CBCF458-D2FC-4FC0-9191-2BC89B0D22AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119DA403-4875-492F-BE1C-47D343411363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119DA403-4875-492F-BE1C-47D343411363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119DA403-4875-492F-BE1C-47D343411363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119DA403-4875-492F-BE1C-47D343411363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBCF458-D2FC-4FC0-9191-2BC89B0D22AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBCF458-D2FC-4FC0-9191-2BC89B0D22AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBCF458-D2FC-4FC0-9191-2BC89B0D22AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBCF458-D2FC-4FC0-9191-2BC89B0D22AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B78776DA-64AA-476B-AC4D-B00F0901C30C}
+	EndGlobalSection
+EndGlobal
