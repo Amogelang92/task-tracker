@@ -15,8 +15,10 @@ It includes backend validation anf basic unit tests on both frontend and backend
 
 ### Frontend
 
-- Angular (latest stable)
-- Typescript
+- Angular: 19.2.18
+- Node: 18.20.8
+- Package Manager: npm
+- Typescript: v5.6.3
 - Reactive Forms
 - Jasmine + Karma for unit testing
 
@@ -44,3 +46,4 @@ It includes backend validation anf basic unit tests on both frontend and backend
 ### Frontend app
 
 - bash: ng test
+
