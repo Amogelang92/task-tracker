@@ -48,4 +48,14 @@ It includes backend validation anf basic unit tests on both frontend and backend
 
 - bash: ng test
 
+## CI Pipeline
+
+A minimal GitHub Actions CI workflow is included.
+
+It automatically:
+
+- Builds the .NET 8 API
+- Runs backend MSTest tests
+
+
 
