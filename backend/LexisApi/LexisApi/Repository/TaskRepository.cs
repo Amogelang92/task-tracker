@@ -35,9 +35,7 @@ namespace LexisApi.Repository
 
             if (!string.IsNullOrWhiteSpace(search))
             {
-                search = search.ToLower();
-
-                result = result.Where(x => x.Title.Contains(search) || (x.Description != String.Empty && x.Description.Contains(search)));
+               result = result.Where(x => x.Title.Contains(search) || (x.Description != String.Empty && x.Description.Contains(search)));
             }
 
             if (!string.IsNullOrEmpty(sort) && sort.Equals("dueDate:desc", StringComparison.OrdinalIgnoreCase))
